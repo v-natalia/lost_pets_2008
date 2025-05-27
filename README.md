@@ -1,24 +1,10 @@
 # README
+# brique de données
+Model, db (migration)
+# Brique applicative (routes, controller, views)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+As a user I can see all found pets  OK
+As a user I can see details about one found pet (when and where it was found) OK
+As a user I can add a pet I found OK
+As a user I can update a pet OK
+As a user I can delete a pet - J'ai ajouté ça dans les fichiers mais on ne l'a pas vu ensemble en livecode

@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Add a new pet</h1>
+  <%= form_with model: @pet do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.label :address %>
+    <%= f.text_field :address %>
+    <%= f.label :species %>
+    <%= f.select :species, collection: Pet::SPECIES %>
+    <%= f.label :date %>
+    <%= f.date_field :date %>
+    <%= f.submit %>
+  <% end %>
+</div>
